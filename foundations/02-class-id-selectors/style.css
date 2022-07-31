@@ -1,0 +1,16 @@
+.odd_numbered{
+    background-color: #ffc0cb;
+    font-family: Verdana, DejaVu Sans, sans-serif;
+}
+#second_element{
+    color: #0000ff;
+    font-size: 36px;
+}
+#third{
+    font-size: 24px;
+}
+#asd{
+    background-color: hsl(120, 73%, 75%);
+    font-size: 24px;
+    font-weight: bold;
+}
