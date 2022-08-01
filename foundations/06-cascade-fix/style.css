@@ -1,9 +1,17 @@
+div.text {
+  color: green;
+  font-size: 22px;
+}
+
+
 .para,
-.small-para {
+.small-para,
+.text.child {
   color: hsl(0, 100%, 50%);
 }
 
-.small-para {
+.para.small-para,
+.text.child {
   font-size: 14px;
 }
 
@@ -11,7 +19,7 @@
   font-size: 22px;
 }
 
-.confirm {
+#confirm-button {
   background: green;
   color: white;
   font-weight: bold;
@@ -28,7 +36,3 @@
   font-size: 14px;
 }
 
-div.text {
-  color: green;
-  font-size: 22px;
-}
