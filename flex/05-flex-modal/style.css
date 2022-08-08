@@ -21,10 +21,14 @@ body {
   border-radius: 10px;
   box-shadow: 2px 4px 16px rgba(0,0,0,.2);
   display: flex;
+  gap: 15px;
+  padding: 15px;
 }
 
 .headerplusclose {
   display: flex;
+  justify-content: space-between;
+  align-items: center;
 
 }
 
@@ -69,4 +73,20 @@ button.cancel {
   background: white;
   border: 1px solid #ddd;
   color: royalblue;
+}
+
+.part-two{
+  color: red;
+ 
+ 
+}
+
+.text {
+  margin-bottom: 12px;
+  margin-top: 12px;
+}
+
+.header{
+  font-weight: bold;
+  font-size: large;
 }
