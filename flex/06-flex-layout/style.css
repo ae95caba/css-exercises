@@ -8,7 +8,7 @@ body {
   
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+ /*justify-content: space-between; /*not same*/
 }
 
 img {
@@ -38,7 +38,7 @@ input {
   display: flex;
   justify-content: space-between;
   padding: 16px;
-  color: red;
+  
 
 }
 
@@ -54,10 +54,13 @@ ul{
   background-color: #eee;
 }
 .content{
+  flex: 1; /* added after removing justify content from body because evesrything stopped veing space between */
+
   align-self: center;
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center; /* added after removing justify content from body because evesrything stopped veing space between */
 }
 
 a{
